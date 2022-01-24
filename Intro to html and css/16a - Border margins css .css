@@ -1,0 +1,20 @@
+#box {
+    /* Background can have its colour, width and height specified*/
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    /* Padding, border and margin can all be added and manipulated*/
+    padding: 20px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+#box2 {
+    
+    background-color: aqua;
+    /* The margin can be specified by side*/
+    margin-left: 10px;
+    /* The padding can be specified for each side this starts from the top and works clockwise*/
+    padding: 0px 10px 50px 20px;
+
+}

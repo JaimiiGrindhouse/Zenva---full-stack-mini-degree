@@ -1,0 +1,10 @@
+/* h1 references the header in the corresponding html document*/
+h1 {
+    color: red;
+    background-color: blue;
+}
+/* mainpar references the unique id created in in the html document */
+#mainpar {
+    font-size: 15px;
+    color: rgb(0, 139, 53);
+}

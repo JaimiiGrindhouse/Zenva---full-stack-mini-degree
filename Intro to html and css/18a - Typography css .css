@@ -1,0 +1,27 @@
+/* Sets the font size in the body of the html file, sets a default size*/
+body {
+font-size: 25px;
+}
+
+/* using 2em as the size it makes the size twice that of the default size, so in this case 50 px*/
+
+p {
+font-size: 2em;  
+font-family: 'Rubik Beastly', cursive;  
+}
+
+/*  adding 2rem makes sure that it latches to twice the size of the root default font size in the html file*/
+h1{
+    font-size: 2rem;
+
+    /* Setting the font style */
+    /* add additional font with a comma in case the 1st priority is not supported in that browser*/
+    font-family: 'Franklin Gothic Medium', 'Courier';    
+}
+
+/* The class is called form the html doc to be able to manipukate that element separately*/
+.keypoint{
+    font-style: italic;
+    font-size: 3em;
+    text-decoration: underline;
+}

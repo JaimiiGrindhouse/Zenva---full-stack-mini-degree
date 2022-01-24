@@ -1,0 +1,9 @@
+/* To apply css to a class in the html doc we reference the the class with .meat in this case*/
+.meat {
+    color: red;
+}
+
+.veg {
+    font-size: 15px;
+    color: rgb(0, 139, 53);
+}

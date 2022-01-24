@@ -1,0 +1,26 @@
+#box {
+    /* Background can have its colour, width and height specified*/
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    /* Padding, border and margin can all be added and manipulated*/
+    padding: 20px;
+    border: 5px solid black;
+    /* To center the entire div element we can define each side of the element, this workd from top clockwise*/
+    /* setting the sides auto places them in the middle, but also automatically scales to screen size changes*/
+    margin: 10px auto 10px auto;
+    /* text alignment options, centering height being middle of the div element and the line height*/
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#box2 {
+    
+    background-color: aqua;
+    /* The margin can be specified by side*/
+    margin-left: 10px;
+    /* The padding can be specified for each side this starts from the top and works clockwise*/
+    padding: 0px 10px 50px 20px;
+
+}

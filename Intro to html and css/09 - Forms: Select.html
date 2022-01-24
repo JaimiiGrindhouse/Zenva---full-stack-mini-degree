@@ -1,0 +1,52 @@
+<html>
+    <h1> Forms </h1>
+    <!-- The form tag lets one create forms for user input-->
+    <form>
+        <!-- Div divides up the html and creates a contatiner for what is in between the brackets-->
+        <div>
+            <!-- How to create a name submission input in a form-->
+            <!-- adding required pop's up a dialogue box if the user has missed the input-->
+            Name: <input type="text" required/>
+        </div>
+        <div>
+            <!-- how to create an age number input in a form-->
+            Age: <input type="number" required/>
+        </div>
+        <div>
+            <!-- The check box can be automatically ticked if the word checked is added after the type-->
+            <!-- Much like how the required works on the input forms-->
+            <input type="checkbox"/>  Is enrolled?
+        </div>
+        <div>
+            <textarea> Hello world </textarea>
+        </div>
+        <div>
+            <!-- Colour selction box, with pre-made selections-->
+            Colour: 
+            <!-- select creates a selection box-->
+            <select>
+                <!-- defines the options in the selction wheel-->
+                <option> Red </option>
+                <option> Black </option>
+                <option> Yellow </option>
+                <!-- Adding selected makes a default selction appear in the box-->
+                <option selected> Blue </option>
+            </select>
+        </div>
+        <div>
+            <!-- to allow a  user to select multipl options from a drop down add the multiple attribute-->
+            <!-- The users users shift or ctrl (cmd on a mac) to be able  select multiple items in the list-->
+            <select multiple>
+                <option> England </option>
+                <option> Wales </option>
+                <option> Scotland </option>
+                <option> Ireland </option>
+            </select>
+        </div>
+        <div>
+            <!-- Creating a save button-->
+            <input type="submit" value="Save"/>
+        </div>
+        
+    </form>
+</html>
